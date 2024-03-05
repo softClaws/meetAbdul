@@ -176,7 +176,7 @@ section{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 100vh;
+    max-height: 150vh;
     .left-header{
         display: flex;
         align-items: center;
@@ -198,8 +198,9 @@ section{
             border-radius: var(--br-sm2);
             border: none;
             height: 90%;
-            max-width: 65%;
+            max-width: 70%;
             margin-left: 4rem;
+            
             // background-color: var(--color-primary);
             transition: var(--trans-sec);
             img{
@@ -230,6 +231,7 @@ section{
             line-height: 2rem;
             color: var(--color-black);
             margin-right: 0rem;
+            justify-content: center;
         }
     }
 }
@@ -290,8 +292,9 @@ section{
             line-height: 1.5rem;
             padding: 0.9rem;
             color: var(--color-black);
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             margin-bottom: 0.3rem;
+            justify-content: center;
         }
         h4{
             font-size: 1rem;
@@ -590,7 +593,7 @@ section{
         p{
             margin: 1rem 0;
             line-height: 2rem;
-            font-size: 1rem;
+            justify-content: center;
         }
         .contact-info{
             .contact-item{
@@ -598,8 +601,9 @@ section{
                 align-items: center;
                 justify-content: space-between;
                 p{
-                    margin: .3rem 1rem !important;
-                    padding:0 !important;
+                    // font-size: 2rem;
+                    // margin: .3rem 1rem !important;
+                    // padding:0 !important;
                 }
                 .icon{
                     display: grid;
@@ -607,9 +611,19 @@ section{
                     i{
                         display: flex;
                         align-items: center;
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
+                
+                p{
+                    font-size: 0.9rem;
                 }
+            }
+            p{
+                
+                font-size: 0.8rem;
+                justify-self: right;
+            }
+
             }
         }
         .contact-icon{
@@ -694,7 +708,7 @@ section{
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    width: 15rem;
+    width:15rem;
     margin-bottom: 1rem;
     .btn-text{
         padding: 0 2rem;
