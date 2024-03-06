@@ -176,7 +176,7 @@ section{
 .header-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-height: 150vh;
+    min-height: 10vh;
     .left-header{
         display: flex;
         align-items: center;
@@ -231,7 +231,7 @@ section{
             line-height: 2rem;
             color: var(--color-black);
             margin-right: 0rem;
-            justify-content: center;
+            text-align: justify;
         }
     }
 }
@@ -294,7 +294,7 @@ section{
             color: var(--color-black);
             font-size: 0.9rem;
             margin-bottom: 0.3rem;
-            justify-content: center;
+            text-align: justify;
         }
         h4{
             font-size: 1rem;
@@ -427,10 +427,11 @@ section{
                 font-size: 1rem;
             }
         }
-        p{
-            justify-content: center;
-            align-items: center;
-            padding-top: 0.2rem
+        .bullet-text{
+            text-align: justify;
+            padding-top: 0.1rem;
+            font-size: 0.9rem;
+
 
         }
         
@@ -442,8 +443,9 @@ section{
 .port-text{
     margin-top: 0.2rem;
     padding: 2rem 0;
-    text-align: center;
+    text-align: justify;
     color: var(--color-black);
+    font-size: 1rem;
 }
 .portfolios{
     display: grid;
@@ -600,11 +602,12 @@ section{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                p{
-                    // font-size: 2rem;
-                    // margin: .3rem 1rem !important;
-                    // padding:0 !important;
-                }
+                
+                // p{
+                //     // font-size: 2rem;
+                //     // margin: .3rem 1rem !important;
+                //     // padding:0 !important;
+                // }
                 .icon{
                     display: grid;
                     grid-template-columns: 40px 1fr;
@@ -615,7 +618,7 @@ section{
                     }
                 
                 p{
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                 }
             }
             p{
