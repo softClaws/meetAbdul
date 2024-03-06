@@ -433,7 +433,7 @@ section {
   font-size: 1rem;
 }
 .timeline .timeline-item .bullet-text {
-  text-align: justify;
+  text-align: left;
   padding-top: 0.1rem;
   font-size: 0.9rem;
 }
